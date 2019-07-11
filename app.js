@@ -13,3 +13,23 @@ var maxiteration = 100000;
 
 var temp = 1000;
 var alpha = 0.995;
+
+var solusi = jk - 1;
+
+for(t=0;t<=solusi;t++){
+    var w = Math.floor(Math.random() * 10);
+    do{
+        w += 1;
+        if(w > jk - 1){
+            w = 0;
+        }
+    }while(w == t);
+    solusi = w;
+}
+
+// var energi = 
+
+
+
+
+console.log(a)  
